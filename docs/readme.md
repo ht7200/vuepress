@@ -1,14 +1,13 @@
 ---
 home: true
-heroImage: /public/logo.jpg
-actionText: 快速上手 →
-actionLink: /zh/guide/
+heroImage: /logo.jpeg
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 项目管理
+  details: delay？不存在的！前端组，就是这么自信。
+- title: 知识库
+  details: 优秀文章的汇聚地，前端的知识宝库。看不懂的找我们汪瑞峰
+
+- title: 前端周报
+  details: 每周一次的项目总结，以及各种安利、吐槽，适度的商业互吹。
+footer: Copyright © 2018-present | 艺朝艺夕前端组
 ---
