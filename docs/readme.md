@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: FE-DOC/logo.jpeg
+heroImage: /logo.jpeg
 actionText: 《前端宪法》了解一下 →
 actionLink: /lows/
 features:
