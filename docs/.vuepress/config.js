@@ -20,9 +20,9 @@ module.exports = {
       { text: '代码仓库', link: 'http://10.10.10.45:8000/nose'}, // 外部链接
       // 下拉列表
       {
-        text: 'GitHub',
+        text: '项目地址',
         items: [
-          { text: 'GitHub地址', link: 'https://github.com/ht7200/vuepress' },
+          { text: 'GitLab', link: 'hhttp://10.10.10.45:8000/ht7200/FE-DOC.git' },
         ]
       }        
     ],
@@ -84,7 +84,8 @@ module.exports = {
           title: 'vue知识库',
           collapsable: true,
           children: [
-            'VUE/vue'
+            'VUE/vue',
+            'VUE/vuepress'
           ]
         },
         {
