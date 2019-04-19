@@ -22,7 +22,7 @@ module.exports = {
       {
         text: '项目地址',
         items: [
-          { text: 'GitLab', link: 'hhttp://10.10.10.45:8000/ht7200/FE-DOC.git' },
+          { text: 'GitLab', link: 'http://10.10.10.45:8000/ht7200/FE-DOC.git' },
         ]
       }        
     ],
