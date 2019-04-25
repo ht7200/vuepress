@@ -1,8 +1,7 @@
+@echo off 
 
-npm run build
-
+call build.bat
 cd docs/.vuepress/dist
-dir
 
 git init
 git add -A
