@@ -120,7 +120,8 @@ module.exports = {
   base: '/test/', // 比如你的仓库是test
 }
 ```
-#### 创建脚步文件:
+#### 创建脚步文件 for Mac 
+
 在`project`的根目录下，创建一个`deploy.sh`文件：
 ```
 #!/usr/bin/env sh
@@ -149,6 +150,30 @@ git commit -m 'deploy'
 
 cd -
 ```
+#### 创建脚步文件 for Windows:
+在`project`的根目录下，创建一个`build.bat`文件：
+```
+@echo off 
+
+echo building...
+npm run build
+```
+
+在`project`的根目录下，创建一个`deploy.bat`文件：
+```
+@echo off 
+
+call build.bat
+cd docs/.vuepress/dist
+
+git init
+git add -A
+git commit -m 'deploy'
+git push -f http://10.10.10.45:8000/ht7200/FE-DOC.git master:gh-pages
+
+cd ../../..
+```
+
 #### 设置package.json：
 ```
 {
@@ -159,12 +184,18 @@ cd -
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "d": "bash deploy.sh"
+    "d": "bash deploy.sh",
+    "wd": "deploy.bat"
   }
 }
 ```
 #### 部署：
 然后你每次可以运行下面的命令行，来把最新更改推到`github`上：
+- Mac:
 ```
 npm run d
+```
+- Windows:
+```
+npm run wd
 ```
