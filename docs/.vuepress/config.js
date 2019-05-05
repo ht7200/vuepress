@@ -33,6 +33,7 @@ module.exports = {
           title: 'CRM',
           collapsable: false,
           children: [
+            'CRM/H5',
             'CRM/v1',
             'CRM/v2',
             'CRM/v3',
