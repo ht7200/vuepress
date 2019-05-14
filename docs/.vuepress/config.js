@@ -123,13 +123,17 @@ module.exports = {
             '4April/W1',
             '4April/W2',
             '4April/W3',
-            '4April/W4',
+            '4April/W4'
           ]
         },
         {
           title: '五月',
           collapsable: false,
           children: [
+            '5May/W1',
+            '5May/W2',
+            '5May/W3',
+            '5May/W4'
           ]
         },
         {
