@@ -25,3 +25,19 @@
     1. C端项目<font color="#ff9900">[尽量]</font>要求提供视觉稿。
   - **后端侧**
     1. \*进入联调阶段时，<font color="#ed4014">[必须]</font>拿到接口文档，文档形式不包括swagger-ui，以及钉钉消息。文档不全时，前端保留拒绝开发的权利。
+
+> 前端项目命名规范
+  - **示例**
+    1. 打篮球组件：`app-component-basketball`
+    1. 蔡徐坤打篮球含node应用：`app-kunkun-basketball-web`
+    1. 蔡徐坤相册纯静态应用:`app-kunkun-photos-web-staitc`
+  - **前缀**
+    1. 应用型项目以`app`为前缀。
+    1. 小程序项目以`wxapp`为前缀。
+    1. 组件以`app-component`或者`wxapp-component`为前缀。
+  - **后缀**
+    1. 含服务端应用以`-web`结尾。
+    1. 纯静态应用以`web-static`结尾。
+    1. 小程序项目不需要添加后缀。
+  - **正名**
+    - 两个单词以内，用`-`连接。尽量能反映出项目的场景和用途
