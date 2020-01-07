@@ -1,11 +1,11 @@
 ---
 home: true
-heroImage: /logo.jpeg
-actionText: 《前端宪法》了解一下 →
+heroImage: /me.jpg
+actionText: Get Start →
 actionLink: /lows/
 features:
 - title: 项目管理
-  details: delay？不存在的！前端组，就是这么自信。
+  details: delay？不存在的！前端组，就是这么自信??。
 - title: 知识库
   details: 优秀文章的汇聚地，前端的知识宝库。看不懂的找我们汪瑞峰
 - title: 前端周报
