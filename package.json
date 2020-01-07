@@ -9,5 +9,8 @@
     "build": "vuepress build docs",
     "d": "bash deploy.sh",
     "wd": "deploy.bat"
+  },
+  "dependencies": {
+    "@vue/component-compiler-utils": "^3.1.1"
   }
 }
